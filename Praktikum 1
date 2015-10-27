@@ -1,12 +1,10 @@
  //Koffer A5 wurde genutzt
   
    
-   int frequency = 1000;
+  int frequency = 1000;
   char control = '0';
   
-  void setup() 
-{
-  // put your setup code here, to run once:
+  void setup() {  // put your setup code here, to run once:
   pinMode (13, OUTPUT);
   Serial.begin (9600);
 }
